@@ -1,0 +1,46 @@
+:root {
+  --underconstruction-img: url("../imgs/under-construction.jpg");
+}
+.projects {
+  margin-top: 45px;
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+  padding: 50px;
+  text-align: center;
+}
+
+#proj-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+.project-tile {
+  height: 360px;
+  width: 360px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  margin: 0;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+#proj-1 {
+  background-image: var(--underconstruction-img);
+}
+#proj-2 {
+  background-image: var(--underconstruction-img);
+}
+#proj-3 {
+  background-image: var(--underconstruction-img);
+}
+#proj-4 {
+  background-image: var(--underconstruction-img);
+}
+#proj-5 {
+  background-image: var(--underconstruction-img);
+}
+#proj-6 {
+  background-image: var(--underconstruction-img);
+}
