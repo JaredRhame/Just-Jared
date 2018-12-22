@@ -8,16 +8,13 @@ class Navbar extends Component {
   render() {
     return (
       <header>
-        <nav className="container">
+        <nav className="">
           <ul className="row">
             <li className="four columns active">
               <Link to="/">Home</Link>
             </li>
-            <li className="four columns">
+            <li className="">
               <Link to="/Projects">Projects</Link>
-            </li>
-            <li className="four columns">
-              <Link to="/form">Form</Link>
             </li>
           </ul>
         </nav>
