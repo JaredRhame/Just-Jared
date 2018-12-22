@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -10,8 +11,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <About />
-        <Projects />
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={About} />
+          <Route path="/projects" component={Projects} />
+        </Switch>
       </div>
     );
   }
