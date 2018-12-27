@@ -1,0 +1,1 @@
+Maybe instead of having the projects be a separate page, have eachh proj appear as a separate page after clicking. Explaining what I learned from the proj etc.
