@@ -17,9 +17,9 @@ class Navbar extends Component {
   handleClick(e) {
     // this.setState({ active: true });
     // e.current.className = "active";
-    if (e.target === this.projects.current) {
-      this.projects.current.add.className = "active";
-    }
+    // if (e.target === this.projects.current) {
+    //   this.projects.current.add.className = "active";
+    // }
   }
   render() {
     return (

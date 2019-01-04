@@ -44,3 +44,9 @@
 #proj-6 {
   background-image: var(--underconstruction-img);
 }
+
+.title-display {
+  height: 600px;
+  width: 600px;
+  background-color: black;
+}
