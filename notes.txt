@@ -1,3 +1,25 @@
-1. Maybe instead of having the projects be a separate page, have eachh proj appear as a separate page after clicking. Explaining what I learned from the proj etc.
+1. Maybe instead of having the projects be a separate page, have each proj appear as a separate page after clicking. Explaining what I learned from the proj etc.
 
-2. Figure out a way to have a projects component without hard coding each tile. 
+2. Figure out a way to have a projects component without hard coding each tile.
+
+
+
+#TO-DO LIST
+
+1. Each page should be given the "active" class if it's active.
+
+2. Create Footer w/ contact info.
+
+3. ****Make mobile friendly****
+
+4. Grab imgs for Projects
+
+5. Write content:
+  a. About
+  b. Project tiles
+
+6. Include a blog of some sort.
+
+7. Parallax Images provided by "Photo by Magova from Pexels"
+
+8. Create Parallax for about me.

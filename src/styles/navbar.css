@@ -1,5 +1,4 @@
 header {
-  background-color: #ffffff;
   vertical-align: center;
   padding: 55px;
 }
@@ -9,17 +8,35 @@ a {
   color: #916d6d;
 }
 
-ul {
+/* ul {
   list-style: none;
   display: flex;
   flex-direction: row;
   text-align: center;
-}
-
-li {
-  line-height: 50px;
-}
+} */
 
 .active {
   border-bottom: 3px solid black;
+}
+
+nav {
+  background-color: #660506;
+}
+@media only screen and (max-width: 600px) {
+  .nav {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1 0 auto;
+    margin: auto;
+  }
+  .nav-link {
+    width: 35vw;
+  }
+}
+
+.nav-link {
+  font-size: 20px;
 }
