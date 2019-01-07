@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-
 import "../styles/projects.css";
 import "../App.css";
 

@@ -15,6 +15,7 @@ class Navbar extends Component {
   }
 
   handleClick(e) {
+    // console.log(e.target);
     // this.setState({ active: true });
     // e.current.className = "active";
     // if (e.target === this.projects.current) {
@@ -24,17 +25,21 @@ class Navbar extends Component {
   render() {
     return (
       <header>
-        <nav className="">
-          <ul className="row">
+        <nav className="nav">
+          <ul className="row nav-links">
             <li
-              className="four columns active"
+              className="four columns"
               onClick={this.handleClick}
               ref={this.home}
             >
-              <Link to="/">Home</Link>
+              <Link className="nav-link" to="/">
+                Home
+              </Link>
             </li>
             <li ref={this.projects}>
-              <Link to="/Projects">Projects</Link>
+              <Link className="nav-link" to="/Projects">
+                Projects
+              </Link>
             </li>
           </ul>
         </nav>

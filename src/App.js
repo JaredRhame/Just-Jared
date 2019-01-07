@@ -11,6 +11,7 @@ import Tile3 from "./components/proj-tiles/Tile3";
 import Tile4 from "./components/proj-tiles/Tile4";
 import Tile5 from "./components/proj-tiles/Tile5";
 import Tile6 from "./components/proj-tiles/Tile6";
+import Footer from "./components/Footer.js";
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
           <Route path="/tile5" component={Tile5} />
           <Route path="/tile6" component={Tile6} />
         </Switch>
+        <Footer />
       </div>
     );
   }
