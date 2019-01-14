@@ -1,0 +1,7 @@
+:root {
+  --giphyclone-img: url("../imgs/giphy-clone.JPG");
+}
+
+.proj-image {
+  background-image: var(--giphyclone-img);
+}
