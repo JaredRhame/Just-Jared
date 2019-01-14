@@ -1,5 +1,6 @@
 :root {
   --underconstruction-img: url("../imgs/under-construction.jpg");
+  --giphyclone-img: url("../imgs/giphy-clone.JPG");
 }
 .projects {
   margin-top: 45px;
@@ -27,7 +28,7 @@
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 #proj-1 {
-  background-image: var(--underconstruction-img);
+  background-image: var(--giphyclone-img);
 }
 #proj-2 {
   background-image: var(--underconstruction-img);
@@ -45,10 +46,9 @@
   background-image: var(--underconstruction-img);
 }
 
-.title-display {
+.proj-display {
   height: 600px;
   width: 600px;
-  background-color: black;
 }
 
 @media only screen and (max-width: 1550px) {

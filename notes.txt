@@ -8,7 +8,7 @@
 
 1. Each page should be given the "active" class if it's active.
 
-2. Create Footer w/ contact info.
+2. Create Footer w/ contact info. -Done
 
 3. ****Make mobile friendly****
 
