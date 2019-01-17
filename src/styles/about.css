@@ -5,7 +5,7 @@
   flex: auto;
 }
 
-#about-content {
+.content {
   margin-top: 45px;
   height: 100%;
   width: 75vw;
@@ -14,7 +14,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  #about-content {
+  .content {
     padding: 0;
     font-size: 19px;
     box-shadow: none;

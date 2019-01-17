@@ -1,7 +1,22 @@
 :root {
   --giphyclone-img: url("../imgs/giphy-clone.JPG");
+  --underconstruction-img: url("../imgs/under-construction.jpg");
 }
 
-.proj-image {
+.proj-one {
   background-image: var(--giphyclone-img);
+  height: 500px;
+  width: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.proj-two {
+  background-image: var(--underconstruction-img);
+  height: 500px;
+  width: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

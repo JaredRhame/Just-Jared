@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../styles/proj-info.css";
+import "../imgs/under-construction.jpg";
+import "../imgs/giphy-clone.JPG";
 
 class ProjInfo extends Component {
   constructor(props) {
@@ -11,12 +13,12 @@ class ProjInfo extends Component {
     const { project } = this.props.location.state;
 
     return (
-      <div className="proj-display">
+      <div className="proj-display ">
         <Link to="/Projects">Back to Projects</Link>
         <h2 className="headings">{project.name}</h2>
-        <img className="proj-image" src={project.picUrl} />
+        <div className={"proj-image " + project.id} />
 
-        <p className="about-para">{project.content}</p>
+        <p className="content z-depth-5">{project.content}</p>
       </div>
     );
   }
