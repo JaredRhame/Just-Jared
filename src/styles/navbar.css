@@ -8,21 +8,13 @@ a {
   color: #916d6d;
 }
 
-/* ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-} */
-
-.active {
-  border-bottom: 3px solid black;
-}
-
 nav {
   background-color: #660506;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
+  header {
+    padding: 0 0 55px;
+  }
   .nav {
     width: 100vw;
     height: 100px;
@@ -34,6 +26,7 @@ nav {
   }
   .nav-link {
     width: 35vw;
+    padding: 2px;
   }
 }
 

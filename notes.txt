@@ -23,3 +23,28 @@
 7. Parallax Images provided by "Photo by Magova from Pexels"
 
 8. Create Parallax for about me.
+
+
+About content
+I'm a self-taught Front End Developer. I've learned so many things on my journey thus far. I believe learning by making allows you to understand the most nitty-gritty subjects.
+
+I'm a self-taught Front End Developer.
+
+I really just like making things.
+
+My favorite thing about solving problems is that there isn't only one way
+
+So I tried to write something inspirational but, I came up with this instead.
+
+I'm a human from Jersey.
+
+I'm a self-taught Front End Developer.
+
+I really just like making things.
+
+JS is my favorite language so far
+
+Impostor Syndrome is one of my best friends
+
+
+I'm a self-taught Front End Developer from Jersey. JS is my favorite language so far. I love being able to create something from just an idea. Working through the problems and getting frustrated until you have the "ah ha!" moment, is some of the most fun I've ever had. 

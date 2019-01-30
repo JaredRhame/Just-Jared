@@ -14,7 +14,9 @@ class ProjInfo extends Component {
 
     return (
       <div className="proj-display ">
-        <Link to="/Projects">Back to Projects</Link>
+        <Link to="/Projects" className="back-btn">
+          Back to Projects
+        </Link>
         <h2 className="headings">{project.name}</h2>
         <div className={"proj-image " + project.id} />
 

@@ -3,20 +3,47 @@
   --underconstruction-img: url("../imgs/under-construction.jpg");
 }
 
-.proj-one {
-  background-image: var(--giphyclone-img);
-  height: 500px;
-  width: 500px;
+.proj-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.proj-image {
+  height: 68vh;
+  width: 70vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.proj-one {
+  background-image: var(--giphyclone-img);
+}
+
 .proj-two {
   background-image: var(--underconstruction-img);
-  height: 500px;
-  width: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+
+.proj-three {
+  background-image: var(--underconstruction-img);
+}
+
+.proj-four {
+  background-image: var(--underconstruction-img);
+}
+
+.back-btn {
+  font-size: 20px;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1000px) {
+  .proj-image {
+    width: 95vw;
+    height: 70vh;
+  }
 }
